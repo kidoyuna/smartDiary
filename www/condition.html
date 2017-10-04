@@ -1,0 +1,39 @@
+        <ons-page>
+            <ons-toolbar fixed-style>
+                <div class="center">ぐあい</div>
+                <section>
+                <ons-button class="nextbutton" ng-click="navi.pushPage('medicine.html')">
+                    つぎへ
+                </ons-button>
+                
+                <ons-button class="backbutton" ng-click="navi.resetToPage('faith.html')">
+                    もどる
+                </ons-button>
+            </section>
+            </ons-toolbar>
+            
+            <section id="condition">
+            <table class="condition_element">
+                 <tr>
+                    <td><input type="checkbox" name="hatunetu" value="2">くるしい</td>
+                    <td><input type="checkbox" name="ikigire" value="6">いきぎれがする</td>
+                    <td><input type="checkbox" name="kidou" value="8">ゼーゼー/ヒューヒュー</td>
+                </tr>
+                <tr>
+                    
+                    <td><input type="checkbox" name="hatunetu" value="2">ねつがある</td>
+                    <td><input type="checkbox" name="zutuu" value="4">あたまがいたい</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="kushami" value="1">くしゃみ</td>
+                    <td><input type="checkbox" name="hanadumari" value="5">はなづまり</td>
+                    <td><input type="checkbox" name="hanamizu" value="3">はなみず</td>
+                <tr>
+                    <td><input type="checkbox" name="hanamizu" value="3">ねむれない</td>
+                </tr>
+            </table>
+
+            <input type="text" placeholder="その他気になったこと"name="comment">
+
+        </p></center>
+        </ons-page ns-page>

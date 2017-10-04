@@ -1,0 +1,27 @@
+        <ons-page>
+            <ons-toolbar fixed-style>
+                <div class="center">ぐあい</div>
+                <ons-button class="nextbutton" ng-click="navi.pushPage('condition.html')">
+                    つぎへ
+                </ons-button>
+                
+                <ons-button class="backbutton" ng-click="navi.resetToPage('home.html')">
+                    もどる
+                </ons-button>
+            </ons-toolbar>
+            
+            <section><center>
+                <p class=faith>
+                   <label><input type="radio" name="fs" value="1" class="radio"><img src="lib/images/FS1.png" class="radio_image"></label>
+                    <label><input type="radio" name="fs" value="2" class="radio"><img src="lib/images/FS2.png" class="radio_image"></label>
+                    <label><input type="radio" name="fs" value="3" class="radio"><img src="lib/images/FS3.png" class="radio_image"></label>
+                    <label><input type="radio" name="fs" value="4" class="radio"><img src="lib/images/FS4.png" class="radio_image"></label>
+                    <label><input type="radio" name="fs" value="5" class="radio"><img src="lib/images/FS5.png" class="radio_image"></label>
+                </p>
+                <div id="faith_button">
+                        <ons-button ng-click="navi.resetToPage('faith.html')">
+                            まちがえた！
+                        </ons-button>
+               </div>
+            </center></section>
+            </ons-page ns-page>

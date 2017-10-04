@@ -1,0 +1,22 @@
+    <ons-page>
+        <ons-toolbar fixed-style>
+                <div class="center">くすり</div>
+                <section>
+                <ons-button class="nextbutton" ng-click="navi.pushPage('peakflow.html')">
+                    つぎへ
+                </ons-button>
+                
+                <ons-button class="backbutton" ng-click="navi.resetToPage('condition.html')">
+                    もどる
+                </ons-button>
+            </section>
+        </ons-toolbar>
+
+        <table id="medicine">
+            <tr><td><input type="checkbox" name="kushami" value="1">コントローラー</td></tr>
+            <tr></tr>
+            <tr><td><input type="checkbox" name="hanadumari" value="5">リリーバー</td></tr>
+            <tr></tr>
+            <td><input type="checkbox" name="hanamizu" value="3">その他（かぜ薬等）</td>
+            </table>
+        </ons-page>

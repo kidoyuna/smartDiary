@@ -1,0 +1,83 @@
+/*
+#ID名 { プロパティ: 値; }
+.クラス名 { プロパティ: 値; }
+https://allabout.co.jp/gm/gc/398175/
+*/
+
+input[type="checkbox"]{
+   -webkit-transform: scale(1.5);
+   transform: scale(1.5);
+   margin-right: 0.5em;
+}
+
+.radio_image{
+    margin: 50px 0px 6px 15px;
+}
+
+.radio {
+    display: none;
+}
+
+.radio:checked + .radio_image {
+	border: 3px #ff0000 solid;
+    margin: 47px -3px -3px 12px;
+}
+
+#faith_button{
+    margin: 0px 20px;
+}
+
+.backbutton{
+    position: absolute; left: 0px; bottom: 0px;
+}
+
+.nextbutton{
+    position: absolute; right: 0px; bottom: 0px;
+}
+
+#condition{
+    margin: 40px 0px 0px 80px;
+    padding: 0px 10px;
+}
+
+#medicine{
+    margin: 60px 0px 0px 200px;
+    padding: 0px 10px;
+}
+
+table{
+    border-spacing: 0px 10px;
+}
+
+@media screen and (max-width: 700px) {
+   /* 表示領域が7000px以下の場合に適用するスタイル */
+   canvas {
+      height: 80%;
+      max-width: 500px;  /* 横幅の最大値 */}
+      html,body{  overflow: hidden;}
+    .menu {float: left; width: 33vw; height: 50vh; margin: 10px;　align: center};
+    .guai {margin: 0 auto;};
+    .radio {display: none;}
+ 
+    .radio:checked + .radio_image {
+        border: 3px #ff0000 solid;
+	    background-color: #ffeeee;
+    }
+}
+
+@media screen and (min-width: 701px) {
+   /* 表示領域が700px以上の場合に適用するスタイル */
+      canvas {
+      height: 80%;
+      width: auto;
+      }
+    section {position:relative; top:80px; transform: scale(1.5,1.5);}
+    .menu {position:relative; top:5px; float: left; width: 20vw; height: 40vh; margin: 10px;　align: center};
+    .radio:checked + .radio_image {
+        border: 3px #ff0000 solid;
+	    background-color: #ffeeee;
+    }
+}
+
+   
+
